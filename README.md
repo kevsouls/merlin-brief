@@ -1,22 +1,24 @@
 # Merlin Brief
 
-A public information site for Merlin Labs (NASDAQ: MRLN). Every figure sits next to the filing or budget document it came from.
+A public information site for Merlin, Inc. (NASDAQ: MRLN). Not investment advice, a forecast, or a company site.
 
-This is not investment advice, a forecast, or a company site.
-
-The published desk is https://merlin-brief.pages.dev. The sourced timeline is the Timeline tab at https://merlin-brief.pages.dev/timeline, from this repository's [timeline.md](timeline.md) and [sources/](sources/).
+The published desk is https://merlin-brief.pages.dev. The Timeline tab is https://merlin-brief.pages.dev/timeline. The matching writeup is [timeline.md](timeline.md).
 
 ## What a reader can check
 
-- How many common shares are outstanding, and what is not in that count, with the filing date
-- The difference between a contract ceiling and money that has actually been obligated
-- Which budget lines name Merlin, and which nearby programs do not
+- What Merlin says the Merlin Pilot is, on Merlin's own pages
+- The difference between an IDIQ ceiling, contract value, revenue, and cash
+- Which dated lines are a contract, a concept, or a plan
+- What is still unknown, including anything that was only in a screenshot
 
 ## Rules
 
-- No number without a source and a date
-- A ceiling is not a purchase order
-- If a figure is someone else's estimate, say whose
+- No number without the page it came from
+- A ceiling is not cash
+- A path is not a fleet buy
+- A planned date is not a result
+- Air Force or SOCOM items that do not name Merlin are not Merlin contracts
+- No Crossroads fleet-conversion numbers
 
 ## Status
 
