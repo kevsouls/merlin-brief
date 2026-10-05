@@ -4,6 +4,8 @@ A public information site for Merlin Labs (NASDAQ: MRLN). Every figure sits next
 
 This is not investment advice, a forecast, or a company site.
 
+The published desk is https://merlin-brief.pages.dev. The sourced timeline on that page is this repository's [timeline.md](timeline.md) and [sources/](sources/).
+
 ## What a reader can check
 
 - How many common shares are outstanding, and what is not in that count, with the filing date
@@ -18,4 +20,4 @@ This is not investment advice, a forecast, or a company site.
 
 ## Status
 
-The standard is set. Pages are not up yet.
+Live page: https://merlin-brief.pages.dev
