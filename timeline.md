@@ -19,6 +19,7 @@ Dates that sit near Merlin, including ones that are not Merlin. Each line says w
 - **8 July 2026.** SOF Week interview. [Interview note](sources/inside-unmanned-systems-2026-07-08.md).
 - **10 September 2026.** Merlin flew a Merlin Pilot Cessna Caravan at the Project NEXUS kickoff, Texas eIPP, Perot Field Fort Worth Alliance. Merlin's own post. A demo invite, not a line that Merlin is an official eIPP partner. Seen in [this post](https://x.com/1MoreSmithHere/status/2099583883154956707).
 - **14 September 2026.** Textron Aviation and Merlin showed a Cessna SkyCourier UX concept at Air, Space and Cyber. Textron says it is not a flying demonstrator and not a program of record. [SkyCourier note](sources/skycourier-ux-2026-09-14.md).
+- **18 September 2026.** On 18 September 2026 Merlin posted an on-site Aircraft Modification Manager role located in Smithfield, Rhode Island (Flight Test – Flight Operations); the posting says the person must be willing to work on the hangar floor, on the aircraft, and in the office. [Lever posting](https://jobs.lever.co/merlinlabs/19eb0cdd-2dfb-4fc0-8f82-5c6550d990e4), datePosted 2026-09-18. [Source note](sources/merlin-smithfield-modification-manager-2026-09-18.md).
 - **No date on the page.** Merlin says the Merlin Pilot has been demonstrated on the Caravan, King Air, Twin Otter, Long-EZ, and Cozy Mark IV, and that KC-135 work with the Air Force and C-130J work with SOCOM are both still in progress, listed separately. Merlin page, "Early, and Moving with Urgency." Seen in [this post](https://x.com/1MoreSmithHere/status/2103082664848699559).
 
 ## Nearby, Merlin not named
@@ -38,3 +39,4 @@ Dates that sit near Merlin, including ones that are not Merlin. Each line says w
 - GE as the C-130J integration subcontractor. Speculation. The filing text is the KC-135 console agreement.
 - The SOCOM chart diamonds and triangles as Merlin awards. The charts do not name a company.
 - Shawarma Capital's ADS-B reconstruction, Hanscom roof read, New Zealand certificate withdrawal, and DCMA hiring read. His analysis. Not added until a filing or the company says it.
+- Smithfield as a temporary hangar, and any square footage, headcount, lease, or aircraft based there. The 18 September 2026 posting names a job location and hangar-floor work. It does not say temporary.

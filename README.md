@@ -4,7 +4,7 @@ A public information site for Merlin Labs (NASDAQ: MRLN). Every figure sits next
 
 This is not investment advice, a forecast, or a company site.
 
-The published desk is https://merlin-brief.pages.dev. The sourced timeline on that page is this repository's [timeline.md](timeline.md) and [sources/](sources/).
+The published desk is https://merlin-brief.pages.dev. The sourced timeline is the Timeline tab at https://merlin-brief.pages.dev/timeline, from this repository's [timeline.md](timeline.md) and [sources/](sources/).
 
 ## What a reader can check
 
@@ -21,3 +21,4 @@ The published desk is https://merlin-brief.pages.dev. The sourced timeline on th
 ## Status
 
 Live page: https://merlin-brief.pages.dev
+Timeline tab: https://merlin-brief.pages.dev/timeline
