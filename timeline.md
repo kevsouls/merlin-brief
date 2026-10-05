@@ -14,8 +14,11 @@ Dates that sit near Merlin, including ones that are not Merlin. Each line says w
 - **S-1, date not on the page we saw.** Teaming agreement with GE Aerospace for an exclusive collaboration on the KC-135 center console refresh and future programs either side identifies. Prime is chosen program by program. Term is 36 months and ends in 2028 unless extended. Does not name the C-130J and does not say GE is a subcontractor. Seen in [this post](https://x.com/1MoreSmithHere/status/2105373861902430342).
 - **February 2026.** Matt George's shareholder letter, as quoted by the magazine: sole prime on SOCOM's C-130J autonomy program, milestones, and a path to fleet-wide deployment. Path is not a funded fleet buy. [Interview note](sources/inside-unmanned-systems-2026-07-08.md).
 - **4 June 2026.** Merlin announced the critical design review on the C-130J program with SOCOM was complete. Next steps it named: integration, ground test, then flight demos. Company release. The July magazine article does not mention this review.
+- **July 2026.** Merlin says a Merlin Pilot on a Cessna 208B landed autonomously at Oshkosh. Merlin's SkyCourier writeup. [SkyCourier note](sources/skycourier-ux-2026-09-14.md).
+- **August 2026.** Merlin says it reached Stage of Involvement 3 with New Zealand's Civil Aviation Authority on the flight-control computer and the automated communication system, with the FAA. Merlin's sentence, not the regulator's notice. Same note.
 - **8 July 2026.** SOF Week interview. [Interview note](sources/inside-unmanned-systems-2026-07-08.md).
 - **10 September 2026.** Merlin flew a Merlin Pilot Cessna Caravan at the Project NEXUS kickoff, Texas eIPP, Perot Field Fort Worth Alliance. Merlin's own post. A demo invite, not a line that Merlin is an official eIPP partner. Seen in [this post](https://x.com/1MoreSmithHere/status/2099583883154956707).
+- **14 September 2026.** Textron Aviation and Merlin showed a Cessna SkyCourier UX concept at Air, Space and Cyber. Textron says it is not a flying demonstrator and not a program of record. [SkyCourier note](sources/skycourier-ux-2026-09-14.md).
 - **No date on the page.** Merlin says the Merlin Pilot has been demonstrated on the Caravan, King Air, Twin Otter, Long-EZ, and Cozy Mark IV, and that KC-135 work with the Air Force and C-130J work with SOCOM are both still in progress, listed separately. Merlin page, "Early, and Moving with Urgency." Seen in [this post](https://x.com/1MoreSmithHere/status/2103082664848699559).
 
 ## Nearby, Merlin not named
@@ -34,3 +37,4 @@ Dates that sit near Merlin, including ones that are not Merlin. Each line says w
 - A count of about 95 AC/MC-130Js as of September 2025, and the claim that the $105 million covers that fleet. Not in the photos.
 - GE as the C-130J integration subcontractor. Speculation. The filing text is the KC-135 console agreement.
 - The SOCOM chart diamonds and triangles as Merlin awards. The charts do not name a company.
+- Shawarma Capital's ADS-B reconstruction, Hanscom roof read, New Zealand certificate withdrawal, and DCMA hiring read. His analysis. Not added until a filing or the company says it.
