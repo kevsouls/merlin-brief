@@ -23,7 +23,7 @@ When git and Cloudflare credentials are present in the environment (`git push` w
 The script stops at the step that needs a connector, prints what to do, and exits with 20 (GitHub) or 30 (Cloudflare). The full sequence:
 
 1. `./publish.sh all "message"` commits, then exits 20 and writes `.publish/connector-push.json`.
-2. GitHub connector `push_files` with the `push_files` object from that file, unchanged. Each `content` is a `$file:` reference that the tool call expands. Run `delete_file` for any `delete_file` entries.
+2. GitHub connector `push_files` once per entry in `push_files_calls` from that file, unchanged, one call at a time in order (parallel calls fail as non fast forward). Each `content` is a `$file:` reference that the tool call expands; the connector allows at most 4 per call, which is why larger updates are split into parts. Run `delete_file` for any `delete_file` entries.
 3. `./publish.sh adopt` checks that GitHub's tree equals the local tree and moves local HEAD to GitHub's commit, so both SHAs match.
 4. Cloudflare MCP `execute` with code `$file:<repo>/tools/mcp-get-upload-token.js`. It returns a short-lived upload JWT.
 5. `CF_PAGES_UPLOAD_JWT='<jwt>' ./publish.sh deploy` uploads the assets, writes `.publish/mcp-create-deployment.js`, and exits 30.

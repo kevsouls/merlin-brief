@@ -103,7 +103,12 @@ for (const line of out.split("\n").filter(Boolean)) {
   if (status === "D") deletes.push(p);
   else files.push({ path: p, content: `$file:${root}/${p}` });
 }
-console.log(JSON.stringify({ push_files: { owner, repo, branch, message: message.trim(), files }, delete_file: deletes.map((p) => ({ owner, repo, branch, path: p, message: `Remove ${p}` })) }, null, 2));
+// The connector expands at most 4 $file: references per call, so split.
+const chunks = [];
+for (let i = 0; i < files.length; i += 4) chunks.push(files.slice(i, i + 4));
+const n = chunks.length;
+const calls = chunks.map((c, i) => ({ owner, repo, branch, message: n === 1 ? message.trim() : `${message.trim()} (part ${i + 1} of ${n})`, files: c }));
+console.log(JSON.stringify({ push_files_calls: calls, delete_file: deletes.map((p) => ({ owner, repo, branch, path: p, message: `Remove ${p}` })) }, null, 2));
 NODE
 }
 
@@ -117,9 +122,10 @@ cmd_push() {
   say "push: git has no GitHub credentials on this machine ($(head -1 "$PUB/push.err"))"
   write_connector_push
   say "push: wrote $PUB/connector-push.json"
-  say "NEXT: call the GitHub connector push_files with the 'push_files' object in that file"
-  say "      (each content value is a \$file: reference, pass it unchanged), then delete_file for"
-  say "      any 'delete_file' entries, then run: ./publish.sh adopt && ./publish.sh deploy"
+  say "NEXT: call the GitHub connector push_files once per entry in 'push_files_calls', one at a"
+  say "      time and in order (never in parallel). Pass each object unchanged; every content value"
+  say "      is a \$file: reference. Then delete_file for any 'delete_file' entries, then run:"
+  say "      ./publish.sh adopt && ./publish.sh deploy"
   exit 20
 }
 
