@@ -1,0 +1,16 @@
+{
+  "name": "merlin-brief-site",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Merlin Brief static site. dist/ is exactly what Cloudflare Pages serves.",
+  "type": "module",
+  "scripts": {
+    "publish:site": "./publish.sh all"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.4.0"
+  }
+}

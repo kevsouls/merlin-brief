@@ -1,0 +1,36 @@
+# Dependencies and tool caches
+node_modules/
+.wrangler/
+.npm/
+.cache/
+
+# Publish working files (manifests, upload state, verify logs)
+.publish/
+
+# Local run logs written by update routines
+deploy-result.json
+prod-verify.txt
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+.dev.vars
+
+# No source PDFs or source images in the repo
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.heic
+
+# dist/og.jpg (social card) is served live and deployed from this folder,
+# but it is binary and the GitHub connector can only push text files.
+# publish.sh treats it as the single allowed ignored file under dist/.
+
+# OS and editor noise
+.DS_Store
+*.swp

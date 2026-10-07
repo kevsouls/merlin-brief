@@ -2,7 +2,13 @@
 
 A public information site for Merlin, Inc. (NASDAQ: MRLN). Not investment advice, a forecast, or a company site.
 
-The published desk is https://merlin-brief.pages.dev. The Timeline tab is https://merlin-brief.pages.dev/timeline. The matching writeup is [timeline.md](timeline.md).
+Live site: https://merlinbrief.com (also served at https://merlin-brief.pages.dev)
+
+## What is in this repo
+
+- `dist/` is the exact set of static files the live site serves (Cloudflare Pages project `merlin-brief`, production branch `main`). Every page update is committed here and deployed from this same folder, so the repo and the site stay in step. One file is the exception: `dist/og.jpg`, the social share card, is served live but kept out of git because the current publishing setup can only push text files to GitHub.
+- `timeline.md` is the dated timeline writeup, and `sources/` holds short text extracts of the pages it cites. The site's old `/timeline` tab now redirects to the home page, so this writeup lives here only.
+- `publish.sh`, `tools/`, and `PUBLISH.md` are the single publish path: commit, push to GitHub `main`, deploy the same tree to Cloudflare Pages, then check that the live site and GitHub both match.
 
 ## What a reader can check
 
@@ -19,8 +25,3 @@ The published desk is https://merlin-brief.pages.dev. The Timeline tab is https:
 - A planned date is not a result
 - Air Force or SOCOM items that do not name Merlin are not Merlin contracts
 - No Crossroads fleet-conversion numbers
-
-## Status
-
-Live page: https://merlin-brief.pages.dev
-Timeline tab: https://merlin-brief.pages.dev/timeline
